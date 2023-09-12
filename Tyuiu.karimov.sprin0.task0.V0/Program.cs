@@ -10,6 +10,11 @@ namespace Tyuiu.karimov.sprin0.task0.V0
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("hello world");
+            string name = "каримбек";
+            int age = 18;
+            Console.WriteLine("здраствуйте меня зовут" + name + "мне" + age + "лет");
+            Console.ReadKey();
         }
     }
 }
